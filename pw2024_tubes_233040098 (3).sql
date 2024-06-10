@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `kategori_menu` (
   `id_kategori` int NOT NULL,
   `nama_kategori` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `kategori_menu`
@@ -56,7 +56,7 @@ CREATE TABLE `menu` (
   `deskripsi_menu` text NOT NULL,
   `id_User` int DEFAULT NULL,
   `id_kategori` int DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `menu`
@@ -99,7 +99,7 @@ CREATE TABLE `user` (
   `username` varchar(200) DEFAULT NULL,
   `password` varchar(200) DEFAULT NULL,
   `role` enum('user','admin') NOT NULL DEFAULT 'user'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `user`

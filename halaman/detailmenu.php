@@ -79,7 +79,7 @@ if (isset($_GET['id'])) {
                 <div class="row"><i class="bi bi-star-fill"> <?= $detail["rating_menu"]; ?></i></div>
               </div>
               <div class="button d-flex p-4" style="justify-content: center;">
-                <p class="card-text"><a href="#"><button type="submit" class="btn btn-outline-secondary">Order</button></a></p>
+                <p class="card-text"><a href="menu.php"><button type="submit" class="btn btn-outline-secondary">Kembali</button></a></p>
               </div>
             </div>
           </div>
